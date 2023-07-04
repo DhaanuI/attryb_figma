@@ -10,14 +10,13 @@ export default function Main() {
 
             </div>
             <div className='header_section'>
-
                 <h1>User Management</h1>
                 <p>Add or Manage your Domains</p>
             </div>
             <div className='section'>
                 <div className='container'>
-                    <div className='content'>
-                        <div>
+                    <div className='container_content'>
+                        <div className='container_contentdiv1'>
                             <h3>Users</h3>
                             <p>Add or remove users and manage their roles and Permissions</p>
 
@@ -34,7 +33,7 @@ export default function Main() {
                                 <div>
                                     <div>
                                         <img src="" alt="" />
-                                        <h1>Name</h1>
+                                        <h5>Name</h5>
                                         <p>email</p>
                                     </div>
                                 </div>
@@ -44,7 +43,7 @@ export default function Main() {
                                     </select>
                                 </div>
                                 <div>
-                                    <button></button>
+                                    <button>Delete</button>
                                 </div>
                             </div>
 
@@ -52,7 +51,7 @@ export default function Main() {
                                 <div>
                                     <div>
                                         <img src="" alt="" />
-                                        <h1>Name</h1>
+                                        <h5>Name</h5>
                                         <p>email</p>
                                     </div>
                                 </div>
@@ -62,7 +61,7 @@ export default function Main() {
                                     </select>
                                 </div>
                                 <div>
-                                    <button></button>
+                                    <button>Delete</button>
                                 </div>
                             </div>
 
@@ -70,7 +69,7 @@ export default function Main() {
                                 <div>
                                     <div>
                                         <img src="" alt="" />
-                                        <h1>Name</h1>
+                                        <h5>Name</h5>
                                         <p>email</p>
                                     </div>
                                 </div>
@@ -80,7 +79,7 @@ export default function Main() {
                                     </select>
                                 </div>
                                 <div>
-                                    <button></button>
+                                    <button>Delete</button>
                                 </div>
                             </div>
 
@@ -88,7 +87,7 @@ export default function Main() {
                                 <div>
                                     <div>
                                         <img src="" alt="" />
-                                        <h1>Name</h1>
+                                        <h5>Name</h5>
                                         <p>email</p>
                                     </div>
                                 </div>
@@ -98,7 +97,7 @@ export default function Main() {
                                     </select>
                                 </div>
                                 <div>
-                                    <button></button>
+                                    <button>Delete</button>
                                 </div>
                             </div>
 
@@ -106,7 +105,7 @@ export default function Main() {
                                 <div>
                                     <div>
                                         <img src="" alt="" />
-                                        <h1>Name</h1>
+                                        <h5>Name</h5>
                                         <p>email</p>
                                     </div>
                                 </div>
@@ -116,7 +115,7 @@ export default function Main() {
                                     </select>
                                 </div>
                                 <div>
-                                    <button></button>
+                                    <button>Delete</button>
                                 </div>
                             </div>
 
@@ -124,7 +123,7 @@ export default function Main() {
                                 <div>
                                     <div>
                                         <img src="" alt="" />
-                                        <h1>Name</h1>
+                                        <h5>Name</h5>
                                         <p>email</p>
                                     </div>
                                 </div>
@@ -134,14 +133,55 @@ export default function Main() {
                                     </select>
                                 </div>
                                 <div>
-                                    <button></button>
+                                    <button>Delete</button>
                                 </div>
                             </div>
 
                         </div>
                     </div>
-                    <div>
 
+                    <div className='footerContent'>
+
+                        <div>
+                            <h3>Pending Invites</h3>
+                            <p>Add or remove users and manage their roles and Permissions</p>
+                        </div>
+
+                        <div>
+                            <h1>Name</h1>
+
+                            <div>
+                                <div className='footerContent1'>
+                                    <div>
+                                        <img src="" alt="" />
+                                        <h1>Name</h1>
+                                        <p>email</p>
+                                    </div>
+                                    <div>
+                                        <button>Resend Invite</button>
+                                    </div>
+                                    <div>
+                                        <button>Revoke Invite</button>
+                                    </div>
+                                </div>
+
+
+                                <div className='footerContent1'>
+                                    <div>
+                                        <img src="" alt="" />
+                                        <h1>Name</h1>
+                                        <p>email</p>
+                                    </div>
+                                    <div>
+                                        <button>Resend Invite</button>
+                                    </div>
+                                    <div>
+                                        <button>Revoke Invite</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>

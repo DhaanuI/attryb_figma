@@ -1,4 +1,31 @@
 .contentDiv,
-.tableHeading{
+.tableHeading,
+.container_content,
+.footerContent,
+.footerContent1{
     display:flex
+}
+
+
+.container_content{
+    border:1px solid black;
+    
+    width:1000px;
+    padding:20px;
+}
+
+.container_contentdiv1{
+    /* border:1px solid black; */
+    width:20%;
+}
+
+.table{
+    border:1px solid black;
+    width:90%;
+}
+
+.contentDiv{
+
+   
+    justify-content: space-between;
 }

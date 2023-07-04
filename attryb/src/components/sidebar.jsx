@@ -7,7 +7,7 @@ export default function Sidebar() {
                 <div className='sidebar_content'>
                     <div className='sidebar_nav'>
                         <div className='sidebar_headericon'>
-                            <img src="" alt="" />
+                            <img src="" alt="header" />
                         </div>
                         <div className='sidebar_navigation'>
                             <ul>
@@ -52,5 +52,6 @@ export default function Sidebar() {
         </div>
     )
 }
+
 
 
