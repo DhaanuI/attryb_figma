@@ -8,7 +8,7 @@
 
 
 .container_content{
-    border:1px solid black;
+    border:1px solid whitesmoke;
     
     width:1000px;
     padding:20px;
@@ -20,12 +20,23 @@
 }
 
 .table{
-    border:1px solid black;
+    border:1px solid whitesmoke;
     width:90%;
 }
 
-.contentDiv{
+.tableHeading{
+    border:1px solid whitesmoke;
+    /* justify-content: space-between; */
 
-   
+}
+
+.contentDiv{
     justify-content: space-between;
+    height:15%;
+    border:1px solid whitesmoke;
+}
+
+
+.role{
+    margin-left:370px
 }

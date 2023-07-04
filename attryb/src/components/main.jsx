@@ -26,14 +26,14 @@ export default function Main() {
                             <div className='tableHeading'>
                                 <h5>Name</h5>
 
-                                <h5>Role</h5>
+                                <h5 className='role'>Role</h5>
                             </div>
 
                             <div className='contentDiv'>
                                 <div>
                                     <div>
-                                        <img src="" alt="" />
-                                        <h5>Name</h5>
+                                        <img src="" alt="icon" />
+                                        <p>Name</p>
                                         <p>email</p>
                                     </div>
                                 </div>
@@ -50,8 +50,8 @@ export default function Main() {
                             <div className='contentDiv'>
                                 <div>
                                     <div>
-                                        <img src="" alt="" />
-                                        <h5>Name</h5>
+                                        <img src="" alt="icon" />
+                                        <p>Name</p>
                                         <p>email</p>
                                     </div>
                                 </div>
@@ -68,8 +68,8 @@ export default function Main() {
                             <div className='contentDiv'>
                                 <div>
                                     <div>
-                                        <img src="" alt="" />
-                                        <h5>Name</h5>
+                                        <img src="" alt="icon" />
+                                        <p>Name</p>
                                         <p>email</p>
                                     </div>
                                 </div>
@@ -86,8 +86,8 @@ export default function Main() {
                             <div className='contentDiv'>
                                 <div>
                                     <div>
-                                        <img src="" alt="" />
-                                        <h5>Name</h5>
+                                        <img src="" alt="icon" />
+                                        <p>Name</p>
                                         <p>email</p>
                                     </div>
                                 </div>
@@ -104,8 +104,8 @@ export default function Main() {
                             <div className='contentDiv'>
                                 <div>
                                     <div>
-                                        <img src="" alt="" />
-                                        <h5>Name</h5>
+                                        <img src="" alt="icon" />
+                                        <p>Name</p>
                                         <p>email</p>
                                     </div>
                                 </div>
@@ -122,8 +122,8 @@ export default function Main() {
                             <div className='contentDiv'>
                                 <div>
                                     <div>
-                                        <img src="" alt="" />
-                                        <h5>Name</h5>
+                                        <img src="" alt="icon" />
+                                        <p>Name</p>
                                         <p>email</p>
                                     </div>
                                 </div>
@@ -141,7 +141,6 @@ export default function Main() {
                     </div>
 
                     <div className='footerContent'>
-
                         <div>
                             <h3>Pending Invites</h3>
                             <p>Add or remove users and manage their roles and Permissions</p>
