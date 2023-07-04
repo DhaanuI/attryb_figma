@@ -1,8 +1,29 @@
-const Sidebar = () => {
-    return (
-        <div>
-            <div>
+import "../sidebar.css"
 
+export default function Sidebar() {
+    return (
+        <div className='mainSidebar'>
+            <div className='sidebar' >
+                <div className='sidebar_content'>
+                    <div className='sidebar_nav'>
+                        <div className='sidebar_headericon'>
+                            <img src="" alt="" />
+                        </div>
+                        <div className='sidebar_navigation'>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className='sidebar_footer'></div>
+                </div>
             </div>
 
             <div className='subnav'>
@@ -31,3 +52,5 @@ const Sidebar = () => {
         </div>
     )
 }
+
+
