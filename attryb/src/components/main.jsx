@@ -157,6 +157,7 @@ export default function Main() {
                         </div>
                     </div>
 
+<hr />
                     <div className='footerContent'>
                         <div className='container_contentdiv1'>
                             <h3>Pending Invites</h3>

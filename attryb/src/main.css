@@ -68,7 +68,7 @@ select {
 }
 
 .container_content {
-    border: 1px solid whitesmoke;
+    /* border: 1px solid whitesmoke; */
     
     padding: 20px;
 }
@@ -100,9 +100,11 @@ select {
 
 .contentDiv {
     justify-content: space-between;
-    height: auto;
+    height: 60px;
     border: 1px solid whitesmoke;
+    
 }
+
 
 .role {
     margin-left: 470px
@@ -165,9 +167,15 @@ select {
     text-align: left;
 }
 
-.render {
-    height: 60px;
+.domains{
+    padding:4px 8px 4px 8px;
 }
+
+/* .render{
+    border: 1px solid black;
+    height: 40px;
+} */
+
 
 .renderInfo {
     height: auto;
@@ -200,7 +208,7 @@ select {
 
 
 .container{
-    border:1px solid whitesmoke;
+    /* border:1px solid whitesmoke; */
     padding:0px 45px 0px 45px
 }
 
@@ -259,3 +267,14 @@ select {
     display:flex;
 }
 
+.contentDiv p{
+    font-size: 14px;
+}
+
+.section{
+    border:1px solid whitesmoke
+}
+
+hr{
+    border:1px solid #EAECF0
+}
