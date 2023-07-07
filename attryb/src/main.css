@@ -232,12 +232,12 @@ select {
 
 
 .footer{
-    /* border:1px solid black; */
+    border:1px solid whitesmoke;
     margin-left:13px 
 }
 
 .render{
-    /* border:1px solid black; */
+    border:1px solid whitesmoke;
     height:70px;
 }
 
